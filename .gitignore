@@ -1,0 +1,7 @@
+# Ignore plaintext secrets
+*planka-secrets.yaml
+!*planka-secrets.enc.yaml
+
+# Ignore private keys
+keys.txt
+*.key

@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: planka-config
+  labels:
+    app.kubernetes.io/name: planka
+data:
+   BASE_URL: "http://localhost:1337"
+   PORT: "1337"
+   TRUST_PROXY: "0"
